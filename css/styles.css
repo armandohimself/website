@@ -1,0 +1,30 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+} */
+
+hr {
+    border-style: dotted none none none;
+    border-width: 12px;
+    height: 2px;
+    width: 10%;
+}
+
+.red {
+    background-color: red;
+    left: 200px;
+    top: 200px;
+}
+
+.blue {
+    background-color: blue;
+    left: 100px;
+    top: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    top: 0px;
+    left: 0px;
+}
