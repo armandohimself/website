@@ -1,30 +1,99 @@
-/* div {
-    width: 100px;
-    height: 100px;
-    position: absolute;
+/******************** HTML TAGS ********************/
+body {
+  background-color: #fcdab7; 
+  margin: 0px;
+  text-align: center;
+  font-family: inherit;
+}
+
+/* h1 {
+  color: #1e5f74;
+  font-family: 'IBM Plex Mono', monospace;
+  margin: 0px auto 20px;
 } */
+
+h2 {
+  color: #1e5f74;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3, a {
+  color: #133b5c;
+}
 
 hr {
     border-style: dotted none none none;
     border-width: 12px;
+    color: lightgray;
+    display: block;
     height: 2px;
     width: 10%;
+    margin: 80px auto 10px;
 }
 
-.red {
-    background-color: red;
-    left: 200px;
-    top: 200px;
+ol {
+  display: inline-block;
 }
 
-.blue {
-    background-color: blue;
-    left: 100px;
-    top: 100px;
+p {
+  font-weight: bold;
 }
 
-.yellow {
-    background-color: yellow;
-    top: 0px;
-    left: 0px;
+span {
+  text-decoration: underline;
+}
+
+/******************** IDs ********************/
+ #cloud1 {
+  position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+#cloud2 {
+  position: absolute;
+  left: 300px;
+  top: 130px;
+} 
+
+#mountain {
+  position: absolute;
+  bottom: 0px;
+  right: 500px;
+  left: auto;
+  z-index: -1;
+}
+/******************** CLASSES ********************/
+.top {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.li {
+  width: 25%;
+  height: 25%;
+  padding-right: 30px;
+  float: left;
+}
+
+.lid {
+  width: 25%;
+  height: 25%;
+  padding-right: 30px;
+  float: right;
+}
+
+.me {
+  width: 200px;
+  height: 200px;
 }
