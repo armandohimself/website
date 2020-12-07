@@ -1,16 +1,15 @@
 /******************** HTML TAGS ********************/
 body {
-  background-color: #fcdab7; 
   margin: 0px;
   text-align: center;
   font-family: inherit;
 }
 
-/* h1 {
-  color: #1e5f74;
+h1 {
+  color: rgba(97,84,168,1);
   font-family: 'IBM Plex Mono', monospace;
   margin: 0px auto 20px;
-} */
+}
 
 h2 {
   color: #1e5f74;
@@ -59,26 +58,13 @@ span {
 
 #mountain {
   position: absolute;
-  bottom: 0px;
-  right: 500px;
-  left: auto;
+    top: 200px;
+    right: 0px;
+    left: 0px;
+  width: 100%;
   z-index: -1;
 }
 /******************** CLASSES ********************/
-.top {
-  position: relative;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
-
-.skill-row {
-  line-height: 2;
-  text-align: left;
-  width: 50%;
-  margin: 100px auto 100px;
-}
-
 .li {
   width: 25%;
   height: 25%;
@@ -96,4 +82,31 @@ span {
 .me {
   width: 200px;
   height: 200px;
+}
+
+.middle-container {
+  background-image: url(/images/stars.png);
+  background-color: #000000;
+  color: rgba(97,84,168,1);
+
+}
+
+.profile {
+  padding-top: 50px;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px;
+}
+
+.top-container {
+  background-color: rgba(252,218,183,1);
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 368px;
+  text-align: center;
+  z-index: -1;
 }
